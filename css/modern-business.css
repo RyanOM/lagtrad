@@ -9,6 +9,8 @@
 html,
 body {
     height: 100%;
+    color: white;
+    background: rgb(46, 46, 64);
 }
 
 body {
@@ -17,6 +19,11 @@ body {
 
 .img-portfolio {
     margin-bottom: 30px;
+}
+
+#logo {
+    height: 50px !important;
+    margin-top: -15px !important;
 }
 
 .img-hover:hover {
@@ -54,6 +61,10 @@ header.carousel .fill {
     display: block;
     font-size: 50px;
     line-height: 50px;
+}
+
+.panel-body, .well {
+    color: black;
 }
 
 .price sup {
